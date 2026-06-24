@@ -2,7 +2,7 @@
 
 A client-server dictionary application in Java that supports multiple concurrent clients performing word lookups and edits in real time. Built with raw sockets and threads, it uses reader-writer locking for safe concurrency and persists all data to disk so changes survive server restarts and crashes.
 
-Developed for COMP90015 (Distributed Systems), Master of Computer Science, University of Melbourne.
+Developed for COMP90015 (Distributed Systems - Assignment 1), Master of Computer Science, University of Melbourne.
 
 ## Features
 
