@@ -2,7 +2,7 @@
 
 A client-server dictionary application in Java that supports multiple concurrent clients performing word lookups and edits in real time. Built with raw sockets and threads, it uses reader-writer locking for safe concurrency and persists all data to disk so changes survive server restarts and crashes.
 
-Developed for COMP90015 (Distributed Systems - Assignment 1), Master of Computer Science, University of Melbourne.
+Developed for COMP90015 (Distributed Systems), Master of Computer Science, University of Melbourne.
 
 ## Features
 
@@ -24,6 +24,14 @@ The system follows a centralized client-server model with a **thread-per-connect
 - **`dictionary.json`** — durable storage for all words and meanings.
 
 A full design report with class and interaction diagrams and detailed design rationale is included: see [Design Report](report.pdf).
+
+**Class diagram**
+
+<img width="726" height="517" alt="image" src="https://github.com/user-attachments/assets/447ba432-1b4a-480c-a2b0-a711bd593481" />
+
+**Interaction diagram**
+
+<img width="721" height="482" alt="image" src="https://github.com/user-attachments/assets/cf679611-0de1-4c6a-b5cb-1889a08b68e4" />
 
 ## How to Run
 
